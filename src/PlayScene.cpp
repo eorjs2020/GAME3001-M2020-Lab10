@@ -222,6 +222,7 @@ void PlayScene::handleEvents()
 	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_2))
 	{
 		TheGame::Instance()->changeSceneState(END_SCENE);
+
 	}
 }
 
